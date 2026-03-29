@@ -2527,7 +2527,7 @@ const allProducts = [
     badge: "100% Natural",
     hasSizes: false,
     images: [
-      "/images/herbal-face-cream2.jpeg"
+      "/images/herbal-face-cream2.jpeg", "/images/herbal-face-cream1.jpeg"
     ]
   },
   {
