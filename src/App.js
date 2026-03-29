@@ -196,6 +196,32 @@ const allProducts = [
     ]
   },
   {
+    id: 163,
+    name: "Cute Baby Bottle -1L",
+    category: "Baby Accessories",
+    description: "🍼 Cute Baby Bottle – 1L – large, easy-to-use bottle designed for safe and convenient feeding.💧 Durable, leak-proof design with a comfortable grip for everyday use.👶 Perfect for storing milk or liquids, ensuring hygiene and ease for parents!",
+    originalPrice: 999,
+    discountPrice: 450,
+    badge: "Best Seller",
+    hasSizes: false,
+    images: [
+         "/images/1l-bottle1.jpeg", "/images/1l-bottle2.jpeg"
+    ]
+  },
+   {
+    id: 182,
+    name: "Cute Baby Bottle Sipper",
+    category: "Baby Accessories",
+    description: "🍼 Cute Baby Bottle Sipper – fun and easy-to-use sipper bottle for little ones.💧 Spill-proof design with a soft spout for safe and comfortable drinking.👶 Perfect for daily use, helping babies learn to sip independently!",
+    originalPrice: 999,
+    discountPrice: 450,
+    badge: "Best Seller",
+    hasSizes: false,
+    images: [
+      "/images/cute-bottle-sipper.jpeg"
+    ]
+  },
+  {
     id: 5,
     name: "Baby Feeding Steel Bottle",
     category: "Baby Accessories",
@@ -232,18 +258,12 @@ const allProducts = [
     name: "Baby SebaMed Face & Body Wash Foam-400ml",
     category: "Hygiene Products",
     description: "Gentle foam formula suitable for delicate baby skin. Soap-free cleanser that cleans without causing dryness. Maintains the natural skin pH balance of 5.5. Dermatologically tested for safe baby care. Leaves skin soft, smooth, and moisturized. Suitable for both face and body cleansing. Easy-to-use pump foam bottle for convenient application.",
-    originalPrice: 699,
-    discountPrice: 530,
-    badge: "Popular",
-    hasSizes: true,
-    sizes: [
-      { size: "50ml", price: 480, stock: true },
-      { size: "100ml", price: 530, stock: true },
-      { size: "200ml", price: 580, stock: true },
-      { size: "400ml", price: 620, stock: true }
-    ],
+    originalPrice: 1090,
+    discountPrice: 1030,
+    badge: "Upto 5% Off",
+    hasSizes: false,
     images: [
-      "/images/Sebamad-facebody-foam.jpeg"
+      "/images/Sebamad-facebody-foam.jpeg","/images/sebamed-foam1.jpeg","/images/sebamed-foam2.jpeg"
     ]
   },
   {
@@ -251,18 +271,16 @@ const allProducts = [
     name: "Baby SebaMed Gentle Wash-400ml",
     category: "Hygiene Products",
     description: "Gentle cleanser specially formulated for delicate baby skin. Soap-free formula that cleans without causing dryness or irritation. Maintains the natural skin pH balance of 5.5. Dermatologically tested and safe for everyday baby care. Helps protect the baby’s natural skin barrier. Leaves skin soft, smooth, and healthy. Suitable for daily use on baby’s body and face.",
-    originalPrice: 699,
-    discountPrice: 530,
-    badge: "Popular",
+    originalPrice: 1040,
+    discountPrice: 950,
+    badge: "Upto 10% Off",
     hasSizes: true,
     sizes: [
-      { size: "50ml", price: 480, stock: true },
-      { size: "100ml", price: 530, stock: true },
-      { size: "200ml", price: 580, stock: true },
-      { size: "400ml", price: 620, stock: true }
+      { size: "200ml", price: 560, stock: true },
+      { size: "400ml", price: 950, stock: true }
     ],
     images: [
-      "/images/sedamed-gentle-wash.jpeg"
+      "/images/sedamed-gentle-wash.jpeg","/images/sebamed-gentlewash1.jpeg","/images/sebamed-gentlewash2.jpeg"
     ]
   },
   {
@@ -270,14 +288,14 @@ const allProducts = [
     name: "Baby SebaMed Powder",
     category: "Hygiene Products",
     description: "Gentle cleanser specially formuGentle baby powder suitable for delicate and sensitive skin. Helps absorb excess moisture and keeps skin dry. Maintains the natural skin pH balance of 5.5. Dermatologically tested for safe baby care. Helps prevent skin irritation and rashes. Leaves baby’s skin soft, smooth, and fresh. Ideal for daily use after bath or diaper change.",
-    originalPrice: 699,
-    discountPrice: 530,
-    badge: "Popular",
+    originalPrice: 1210,
+    discountPrice: 1090,
+    badge: "Upto 10% Off",
     hasSizes: true,
     sizes: [
-      { size: "100ml", price: 530, stock: true },
-      { size: "200ml", price: 580, stock: true },
-      { size: "400ml", price: 620, stock: true }
+      { size: "100g", price: 400, stock: true },
+      { size: "200g", price: 720, stock: true },
+      { size: "400ml", price: 1090, stock: true }
     ],
     images: [
       "/images/sedmed-baby-powder.jpeg"
@@ -285,21 +303,35 @@ const allProducts = [
   },
   {
     id:10,
-    name: "Baby SebaMed Protective Facial Cream",
+    name: "Baby SebaMed Protective Facial Cream-100ml",
     category: "Hygiene Products",
     description: "Gentle moisturizing cream specially formulated for delicate baby facial skin. Helps protect baby’s skin from dryness and irritation. Maintains the natural skin pH balance of 5.5. Dermatologically tested and safe for sensitive skin. Provides long-lasting hydration and nourishment. Supports the skin’s natural protective barrier. Leaves baby’s skin soft, smooth, and healthy.",
-    originalPrice: 699,
-    discountPrice: 530,
-    badge: "Popular",
-    hasSizes: true,
-    sizes: [
-      { size: "100ml", price: 530, stock: true },
-      { size: "200ml", price: 580, stock: true },
-    ],
+    originalPrice: 1670,
+    discountPrice: 1510,
+    badge: "Upto 10% Off",
+    hasSizes: false,
     images: [
-      "/images/sedamed-facial-cream.jpeg"
+      "/images/sedamed-facial-cream.jpeg","/images/sebamed-facial-cream1.jpeg","/images/sebamed-facial-cream2.jpeg"
     ]
   },
+  {
+    id:154,
+    name: "Baby SebaMed Cleansing Bar-150g",
+    category: "Hygiene Products",
+    description: "🧼 Baby SebaMed Cleansing Bar – 150g – gentle, pH-balanced soap for delicate baby skin.🌿 Soap-free formula helps cleanse without dryness while protecting natural moisture.👶 Perfect for daily use, keeping your baby’s skin soft, smooth, and healthy!",
+    originalPrice: 500,
+    discountPrice: 470,
+    badge: "Upto 5% Off",
+    hasSizes: true,
+    sizes: [
+      { size: "100g", price: 330, stock: true },
+      { size: "150g", price: 470, stock: true },
+    ],
+    images: [
+      "/images/sebamed-soap1.jpeg","/images/sebamed-soap2.jpeg","/images/sebamed-soap3.jpeg"
+    ]
+  },
+
   {
     id: 11,
     name: "Baby Nail Cutter Set Combo",
@@ -401,7 +433,7 @@ const allProducts = [
     badge: "Best Quality",
     hasSizes: false,
     images: [
-      "/images/cotton-net-bedding1.jpeg","/images/cotton-net-bedding2.jpeg"
+      "/images/cotton-net-bedding1.jpeg","/images/cotton-net-bedding2.jpeg","/images/net-bedding.jpeg"
     ]
   },
   {
@@ -432,7 +464,20 @@ const allProducts = [
     badge: "75 x 75cm",
     hasSizes: false,
     images: [
-      "/images/cotton-towel-hood.jpeg"
+      "/images/cotton-towel-hood.jpeg","/images/cotton-towel-hood1.jpeg","/images/cotton-towel-hood2.jpeg","/images/cotton-towel-hood3.jpeg"
+    ]
+  },
+  {
+    id: 166,
+    name: "Baby Hood Towel",
+    category: "Baby Accessories",
+    description: "🛁 Baby Hood Towel – soft and cozy towel designed to gently wrap your baby after bath.🌿 Highly absorbent fabric with a cute hood to keep your baby warm and dry.👶 Perfect for daily use, ensuring comfort, warmth, and gentle care!",
+    originalPrice: 599,
+    discountPrice: 300,
+    badge: "Best Product",
+    hasSizes: false,
+    images: [
+      "/images/baby-hood-towel1.jpeg","/images/baby-hood-towel2.jpeg","/images/baby-hood-towel3.jpeg"
     ]
   },
   {
@@ -487,6 +532,7 @@ const allProducts = [
       "/images/knee-pad.jpeg"
     ]
   },
+
   {
     id: 24,
     name: "New Born Baby Socks (0 to 6 months)",
@@ -498,6 +544,19 @@ const allProducts = [
     hasSizes: false,
     images: [
       "/images/new-baby-socks.jpeg"
+    ]
+  },
+  {
+    id: 167,
+    name: "Baby Socks (0 to 6 months)",
+    category: "Baby Care",
+    description: "🧦 Baby Socks (0 to 6 months) – soft and cozy socks for tiny, delicate feet.🌿 Made with gentle, breathable fabric to keep your baby warm and comfortable.👶 Perfect for daily wear, ensuring a snug fit without irritation!",
+    originalPrice: 300,
+    discountPrice: 150,
+    badge: "Pack of 3",
+    hasSizes: false,
+    images: [
+      "/images/soaks.jpeg"
     ]
   },
   {
@@ -577,6 +636,19 @@ const allProducts = [
     hasSizes: false,
     images: [
       "/images/carry-belt1.jpeg","/images/carry-belt2.jpeg","/images/carry-belt3.jpeg","/images/carry-belt4.jpeg"
+    ]
+  },
+  {
+    id: 164,
+    name: "Baby Carrier",
+    category: "Baby Accessories",
+    description: "👶 Baby Carrier – comfortable and secure carrier for hands-free baby carrying.🪢 Adjustable straps and ergonomic design ensure support for both baby and parent.🌟 Perfect for travel and daily use, keeping your baby close, safe, and happy!",
+    originalPrice: 1099,
+    discountPrice: 750,
+    badge: "Baby Care",
+    hasSizes: false,
+    images: [
+      "/images/baby-carrier1.jpeg","/images/baby-carrier2.jpeg","/images/baby-carrier3.jpeg"
     ]
   },
   {
@@ -666,6 +738,54 @@ const allProducts = [
       "/images/Absorbia-premium-adult.jpeg"
     ]
   },
+  {
+    id: 160,
+    name: "Lifree Adults Pants-XL",
+    category: "Adult Diapers",
+    description: "🧓 Lifree Adults Pants – XL – comfortable and discreet diaper pants for adults.💧 High absorbency with leak-lock protection to keep you dry and confident.✨ Perfect for daily use, offering comfort, hygiene, and ease of movement!",
+    originalPrice: 500,
+    discountPrice: 400,
+    badge: "Best Seller",
+    hasSizes: false,
+    images: [
+        "/images/lifree.jpeg"
+    ]
+  },
+   {
+    id: 161,
+    name: "AbsorbiaActive Adult Tape Diaper",
+    category: "Adult Diapers",
+    description: "🧓 AbsorbiaActive Adult Tape Diaper – reliable tape-style diaper for secure and comfortable fit.💧 High absorbency with leak protection to keep skin dry and irritation-free.✨ Ideal for daily use, offering confidence, hygiene, and easy adjustability!",
+    originalPrice: 649,
+    discountPrice: 320,
+    badge: "Best Seller",
+    hasSizes: true,
+    sizes: [
+      { size: "M (10pc)", price: 300, stock: true },
+      { size: "L (10pc)", price: 320, stock: true },
+      { size: "XL (10pc)", price: 340, stock: true }
+    ],
+    images: [
+          "/images/adult-tape.jpeg"
+    ]
+  },
+  {
+    id: 162,
+    name: "Econap Adult Pants-S",
+    category: "Adult Diapers",
+    description: "🧓 Econap Adult Pants – S – comfortable and discreet diaper pants for a secure fit.💧 High absorbency with leak protection to keep you dry and fresh.✨ Ideal for daily use, ensuring comfort, confidence, and ease of movement!",
+    originalPrice: 600,
+    discountPrice: 400,
+    badge: "Best Seller",
+    hasSizes: true,
+    sizes: [
+      { size: "S (10pc)", price: 400, stock: true }
+    ],
+    images: [
+        "/images/Econap-s.jpeg"
+    ]
+  },
+
   {
     id: 36,
     name: "Absorbia Baby Diapers Pant",
@@ -1047,6 +1167,19 @@ const allProducts = [
     ]
   },
   {
+    id: 165,
+    name: "Baby Pillow",
+    category: "Baby Care",
+    description: "👶 Baby Pillow – soft and gentle pillow designed for your baby’s comfort.🌿 Lightweight, breathable material supports proper head positioning.💤 Perfect for sleep time, ensuring a cozy and restful experience!",
+    originalPrice: 300,
+    discountPrice: 150,
+    badge: "Best Seller",
+    hasSizes: false,
+    images: [
+      "/images/pillow1.jpeg","/images/pillow2.jpeg","/images/pillow3.jpeg"
+    ]
+  },
+  {
     id: 63,
     name: "Baby Brush (6-12yrs)",
     category: "Hygiene Products",
@@ -1253,14 +1386,14 @@ const allProducts = [
     name: "Baby Romper",
     category: "Baby Accessories",
     description: "Baby Romper: Soft and comfortable skin-friendly fabric, lightweight and breathable for all-day wear, cute and stylish romper design perfect",
-    originalPrice: 250,
-    discountPrice: 245,
+    originalPrice: 699,
+    discountPrice: 390,
     badge: "Top Quality",
     hasSizes: true,
      sizes: [
-      { size: "0-3 Months", price: 245, stock: true },
-      { size: "6-9 Months", price: 245, stock: true },
-      { size: "9-18 Months", price: 245, stock: true }
+      { size: "0-3 Months", price: 390, stock: true },
+      { size: "6-9 Months", price: 390, stock: true },
+      { size: "9-18 Months", price: 390, stock: true }
     ],
     images: [
       "/images/romber 1.jpeg"
@@ -1271,14 +1404,14 @@ const allProducts = [
     name: "Baby Romper",
     category: "Baby Accessories",
     description: "Baby Romper: Soft and comfortable skin-friendly fabric, lightweight and breathable for all-day wear, cute and stylish romper design perfect",
-    originalPrice: 250,
-    discountPrice: 245,
+    originalPrice: 699,
+    discountPrice: 390,
     badge: "Top Quality",
     hasSizes: true,
      sizes: [
-      { size: "0-3 Months", price: 245, stock: true },
-      { size: "6-9 Months", price: 245, stock: true },
-      { size: "9-18 Months", price: 245, stock: true }
+      { size: "0-3 Months", price: 390, stock: true },
+      { size: "6-9 Months", price: 390, stock: true },
+      { size: "9-18 Months", price: 390, stock: true }
     ],
     images: [
       "/images/romber-blue2.jpeg","/images/romber-blue1.jpeg"
@@ -1425,11 +1558,11 @@ const allProducts = [
   },
   {
     id: 88,
-    name: "Baby Dress 7-in-1",   
+    name: "Baby Dress 8-in-1",   
     category: "Baby Accessories",
-    description: " Baby Dress 7-in-1: Complete clothing set including multiple coordinated pieces, made with soft and comfortable fabric, perfect for everyday wear and gifting.",
-    originalPrice: 599,
-    discountPrice: 450,
+    description: " Baby Dress 8-in-1: Complete clothing set including multiple coordinated pieces, made with soft and comfortable fabric, perfect for everyday wear and gifting.",
+    originalPrice: 1599,
+    discountPrice: 850,
     badge: "Top Quality",
     hasSizes: false,
     images: [
@@ -1440,7 +1573,7 @@ const allProducts = [
     name: "Baby Dress 5-in-1",   
     category: "Baby Accessories",
     description: "Baby Dress 5-in-1: Stylish and comfortable baby outfit set with essential clothing items, designed with soft, breathable fabric for all-day comfort.",
-    originalPrice: 599,
+    originalPrice: 799,
     discountPrice: 450,
     badge: "Top Quality",
     hasSizes: false,
@@ -1448,26 +1581,26 @@ const allProducts = [
      "/images/5in1.jpeg"
     ]
   },
-    {
+   /*{
     id: 108,
     name: "Absorbia Baby Pants",   
     category: "Baby Care",
     description: "Absorbia Baby Pants: Highly absorbent diaper pants with leak protection and soft material, ensures long-lasting dryness and comfort for babies.",
-    originalPrice: 550,
-    discountPrice: 299,
+    originalPrice: 399,
+    discountPrice: 320,
     badge: "Baby Care",
     hasSizes: true,
     sizes: [
-      { size: "NB (60pcs)", price: 299, stock: true },
-      { size: "S (54pcs)", price: 299, stock: true },
-      { size: "M (48pcs)", price: 299, stock: true },
-      { size: "L (42pcs)", price: 299, stock: true },
-      { size: "XL (36pcs)", price: 299, stock: true }
+      { size: "NB (42pcs)", price: 320, stock: true },
+      { size: "S (40pcs)", price: 320, stock: true },
+      { size: "M (32pcs)", price: 320, stock: true },
+      { size: "L (28pcs)", price: 320, stock: true },
+      { size: "XL (24pcs)", price: 320, stock: true }
     ],
     images: [
      "/images/absorbia-299.jpeg"
     ]
-  },
+  },*/
   {
     id: 90,
     name: "Bebe Baby Wipes",   
@@ -1543,16 +1676,112 @@ const allProducts = [
     badge: "Buy 2 Get 1 Free",
     hasSizes: true,
     sizes: [
-      { size: "NB (60pcs)", price: 798, stock: true },
-      { size: "S (54pcs)", price: 798, stock: true },
-      { size: "M (48pcs)", price: 798, stock: true },
-      { size: "L (42pcs)", price: 798, stock: true },
-      { size: "XL (36pcs)", price: 798, stock: true }
+      { size: "NB (126pcs)", price: 798, stock: true },
+      { size: "S (120pcs)", price: 798, stock: true },
+      { size: "M (96pcs)", price: 798, stock: true },
+      { size: "L (84pcs)", price: 798, stock: true },
+      { size: "XL (72pcs)", price: 798, stock: true }
     ],
     images: [
      "/images/absorbia-798.jpeg"
     ]
   },
+  {
+    id: 155,
+    name: "MamyPoko Pants",   
+    category: "Baby Care",
+    description: "👶 MamyPoko Pants – soft and comfy diaper pants for all-day dryness.💧 High absorbency with leak-lock protection keeps your baby dry longer.✨ Perfect for daily use, ensuring comfort, hygiene, and happy playtime!",
+    originalPrice: 949,
+    discountPrice: 790,
+    badge: "Extra Absorb",
+    hasSizes: true,
+    sizes: [
+      { size: "S (64pcs)", price: 790, stock: true },
+      { size: "M (56pcs)", price: 790, stock: true },
+      { size: "L (48pcs)", price: 790, stock: true },
+      { size: "XL (40pcs)", price: 790, stock: true }
+    ],
+    images: [
+        "/images/mamypoko-790.jpeg"
+    ]
+  },
+  {
+    id: 156,
+    name: "MamyPoko Pants-standard",   
+    category: "Baby Care",
+    description: "👶 MamyPoko Pants – Standard – soft and comfortable diaper pants for everyday use.💧 High absorbency with leak protection to keep your baby dry for longer hours.✨ Perfect for daily wear, ensuring comfort, hygiene, and happy playtime!",
+    originalPrice: 399,
+    discountPrice: 350,
+    badge: "All Night absorb",
+    hasSizes: true,
+    sizes: [
+      { size: "S (36pcs)", price: 350, stock: true },
+      { size: "M (30pcs)", price: 350, stock: true },
+      { size: "L (28pcs)", price: 350, stock: true },
+      { size: "XL (22pcs)", price: 350, stock: true }
+    ],
+    images: [
+      "/images/mamypoko-350.jpeg"
+    ]
+  },
+  {
+    id: 157,
+    name: "Alfaby Baby Pants",   
+    category: "Baby Care",
+    description: "Alfaby Baby Pants – soft and breathable diaper pants for all-day comfort.💧 Quick-absorb core with leak protection to keep your baby dry and fresh.✨ Perfect for daily use, ensuring comfort, care, and a happy baby!",
+    originalPrice: 999,
+    discountPrice: 500,
+    badge: "Comfy Pants",
+    hasSizes: true,
+    sizes: [
+      { size: "S (78pcs)", price: 500, stock: true },
+      { size: "M (74pcs)", price: 500, stock: true },
+      { size: "L (62pcs)", price: 500, stock: true },
+      { size: "XL (54pcs)", price: 500, stock: true }
+    ],
+    images: [
+     "/images/alfaby.jpeg"
+    ]
+  },
+  {
+    id: 158,
+    name: "Little Angel Baby Pants",   
+    category: "Baby Care",
+    description: "👶 Little Angel Baby Pants – soft, snug diaper pants for all-day comfort and care.💧 High absorbency with leak-lock protection to keep your baby dry longer.✨ Perfect for daily use, ensuring a happy and irritation-free experience!",
+    originalPrice: 999,
+    discountPrice: 570,
+    badge: "Popular Pants",
+    hasSizes: true,
+    sizes: [
+      { size: "M (72pcs)", price: 570, stock: true },
+      { size: "L (60pcs)", price: 570, stock: true },
+      
+    ],
+    images: [
+          "/images/little-angle.jpeg"
+    ]
+  },
+   {
+    id: 159,
+    name: "Littles Baby Pants",   
+    category: "Baby Care",
+    description: "👶 Littles Baby Pants – soft and comfortable diaper pants for all-day dryness.💧 High absorbency with leak protection to keep your baby dry and happy.✨ Perfect for everyday use, ensuring comfort and care for your little one!",
+    originalPrice: 999,
+    discountPrice: 500,
+    badge: "Comfy Night",
+    hasSizes: true,
+    sizes: [
+      { size: "S (78pcs)", price: 500, stock: true },
+      { size: "M (74pcs)", price: 500, stock: true },
+      { size: "L (62pcs)", price: 500, stock: true },
+      { size: "XL (54pcs)", price: 500, stock: true },
+      
+    ],
+    images: [
+     "/images/littles.jpeg"
+    ]
+  },
+
   {
     id: 94,
     name: "Baby Care Set",   
@@ -1576,7 +1805,7 @@ const allProducts = [
     badge: "Best Quality",
     hasSizes: false,
     images: [
-            "/images/baby-net-mosquito.jpeg"
+            "/images/baby-net-mosquito.jpeg","/images/baby-net.jpeg"
     ]
   },
   {
@@ -1671,6 +1900,19 @@ const allProducts = [
     ]
   },
   {
+    id: 170,
+    name: "Dettol",   
+    category: "Baby Care",
+    description: "🧴 Dettol – trusted antiseptic solution for everyday hygiene and protection.🛡️ Helps kill germs and prevent infections on cuts, wounds, and surfaces.✨ Ideal for first aid, cleaning, and maintaining a healthy environment!",
+    originalPrice: 309,
+    discountPrice: 267,
+    badge: "99.99% Germ Protection",
+    hasSizes: false,
+    images: [
+            "/images/dettol1.jpeg","/images/dettol2.jpeg","/images/dettol3.jpeg","/images/dettol4.jpeg"
+    ]
+  },
+  {
     id: 103,
     name: "Cetaphil Baby Shampoo",   
     category: "Baby Care",
@@ -1697,6 +1939,33 @@ const allProducts = [
     ]
   },
   {
+    id: 168,
+    name: "Himalaya Baby Soap -75g ", 
+    category: "Baby Care",
+    description: "🧼 Himalaya Baby Soap – 75g – mild and gentle soap specially designed for delicate baby skin.🌿 Enriched with natural ingredients to cleanse softly and keep skin nourished.👶 Perfect for everyday use, leaving your baby’s skin soft, smooth, and protected!",
+    originalPrice: 70,
+    discountPrice: 62,
+    badge: "Watermelon Flavour",
+    hasSizes: false,
+    images: [
+            "/images/watermelon.jpeg"
+    ]
+  },
+  {
+    id: 169,
+    name: "Himalaya Baby Soap -125g ",
+    category: "Baby Care",
+    description: "🧼 Himalaya Baby Soap – 125g – gentle, herbal soap specially made for delicate baby skin.🌿 Enriched with natural ingredients to cleanse, moisturize, and protect.👶 Perfect for daily use, keeping your baby’s skin soft, smooth, and healthy!",
+    originalPrice: 105,
+    discountPrice: 90,
+    badge: "Honey-Milk Flavour",
+    hasSizes: false,
+    images: [
+            "/images/honey-milk.jpeg"
+    ]
+  },
+
+  {
     id: 105,
     name: "Himalaya Baby Combo(Powder+Soap)",   
     category: "Baby Care",
@@ -1722,6 +1991,20 @@ const allProducts = [
             "/images/himalaya-baby-combo1.jpeg"
     ]
   },
+  {
+    id: 171,
+    name: "Piano Fitness Rack",
+    category: "Baby Toys",
+    description: "",
+    originalPrice: 2499,
+    discountPrice: 900,
+    badge: "Fitness Toys",
+    hasSizes: false,
+    images: [
+              "/images/baby-fitness1.jpeg","/images/baby-fitness2.jpeg","/images/baby-fitness3.jpeg","/images/baby-fitness4.jpeg"
+    ]
+  },
+
   {
     id: 108,
     name: "Push Walker",
@@ -2182,6 +2465,19 @@ const allProducts = [
       "/images/yekkada-oil.jpeg"
     ]
   },
+  {
+    id: 172,
+    name: "White Oudh Soap -75g",
+    category: "Hygiene Products",
+    description: "🧼 White Oudh Soap – 75g – luxurious soap infused with a rich and soothing oud fragrance.🌿 Gently cleanses the skin while leaving it soft, fresh, and pleasantly scented.✨ Perfect for daily use, adding a touch of elegance to your bathing routine!",
+    originalPrice: 125,
+    discountPrice: 120,
+    badge: "Home Made",
+    hasSizes: false,
+    images: [
+          "/images/white-oudh.jpeg"
+    ]
+  },
    {
     id: 141,
     name: "Natural Face Whitening Cream",
@@ -2252,8 +2548,8 @@ const allProducts = [
     name: "Sadguru Gramflour Soap",
     category: "Hygiene Products",
     description: "Gram Flour Soap: Natural soap enriched with gram flour (besan) that helps cleanse, exfoliate, and brighten skin, leaving it soft, smooth, and refreshed. 🌿✨",
-    originalPrice:200,
-    discountPrice: 160,
+    originalPrice:240,
+    discountPrice: 190,
     badge: " Pack of 6",
     hasSizes: false,
     images: [
@@ -2265,8 +2561,8 @@ const allProducts = [
     name: "Sadguru Gramflour Soap",
     category: "Hygiene Products",
     description: "Gram Flour Soap: Natural soap enriched with gram flour (besan) that helps cleanse, exfoliate, and brighten skin, leaving it soft, smooth, and refreshed. 🌿✨",
-    originalPrice: 150,
-    discountPrice: 100,
+    originalPrice: 200,
+    discountPrice: 160,
     badge: "Buy 4 Get 1 Free",
     hasSizes: false,
     images: [
@@ -2279,15 +2575,15 @@ const allProducts = [
     category: "Baby Care",
     description: "Pampers Pants: Soft and highly absorbent diaper pants designed to provide long-lasting dryness and leak protection, ensuring comfort and a snug fit for babies during day and night. 👶✨",
     originalPrice: 699,
-    discountPrice: 599,
+    discountPrice: 500,
     badge: "Best Seller",
     hasSizes: true,
     sizes: [
-       { size: "S ", price: 599, stock: true },
-      { size: "M ", price: 599, stock: true },
-      { size: "L", price: 599, stock: true },
-      { size: "XL", price: 599, stock: true },
-       { size: "XXL", price: 599, stock: true },
+       { size: "S ", price: 500, stock: true },
+      { size: "M ", price: 500, stock: true },
+      { size: "L", price: 500, stock: true },
+      { size: "XL", price: 500, stock: true },
+       { size: "XXL", price: 500, stock: true },
     ],
     images: [
       "/images/pampers-599.jpeg"
@@ -2299,15 +2595,15 @@ const allProducts = [
     category: "Baby Care",
     description: "Pampers Pants: Soft and highly absorbent diaper pants designed to provide long-lasting dryness and leak protection, ensuring comfort and a snug fit for babies during day and night. 👶✨",
     originalPrice: 499,
-    discountPrice: 399,
-    badge: "New",
+    discountPrice: 330,
+    badge: "New!!",
     hasSizes: true,
     sizes: [
-       { size: "S ", price: 399, stock: true },
-      { size: "M ", price: 399, stock: true },
-      { size: "L", price: 399, stock: true },
-      { size: "XL", price: 399, stock: true },
-       { size: "XXL", price: 399, stock: true },
+       { size: "S ", price: 330, stock: true },
+      { size: "M ", price: 330, stock: true },
+      { size: "L", price: 330, stock: true },
+      { size: "XL", price: 330, stock: true },
+       { size: "XXL", price: 330, stock: true },
     ],
     images: [
       "/images/pampers-399.jpeg"
@@ -2324,6 +2620,361 @@ const allProducts = [
     hasSizes: false,
     images: [
       "/images/amber.jpeg"
+    ]
+  },
+  {
+    id: 151,
+    name: "Baby Dry Oil Mat",
+    category: "Baby Accessories",
+    description: "Baby Dry Oil Mat: A soft and absorbent mat designed to keep babies dry and comfortable during playtime or rest. Perfect for use at home or on the go. 👶✨",
+    originalPrice: 399,
+    discountPrice: 290,
+    badge: "Best Seller",
+    hasSizes: false,
+    images: [
+      "/images/dry-oil-mat.jpeg","/images/dry-mat.jpeg"
+    ]
+  },
+  {
+    id: 152,
+    name: "Baby Powder Box",
+    category: "Baby Accessories",
+    description: "Baby Powder Box: A convenient box of baby powder designed to keep babies dry and comfortable, with a gentle, non-sticky formula that absorbs moisture effectively. 👶✨",
+    originalPrice: 299,
+    discountPrice: 150,
+    badge: "Top Quality",
+    hasSizes: false,
+    images: [
+      "/images/powder-box1.jpeg","/images/powder-box2.jpeg"
+    ]
+  },
+  {
+    id: 153,
+    name: "Baby Feeding Bottle Cover",
+    category: "Baby Accessories",
+    description: "Baby Feeding Bottle Cover: A protective cover for baby feeding bottles, designed to keep them clean and safe from contamination. 👶✨",
+    originalPrice: 299,
+    discountPrice: 190,
+    badge: "New!",
+    hasSizes: false,
+    images: [
+      "/images/feeding-bottle-cover.jpeg"
+    ]
+  },
+  {
+    id: 173,
+    name: "Baby Slapped Pad",
+    category: "Baby Accessories",
+    description: "🛏️ Baby Splash Pad (Water Play Mat) – fun-filled water mat designed to keep babies engaged and happy.💧 Leak-proof, thick PVC material with colorful moving toys for sensory development.👶 Perfect for tummy time, playtime, and keeping babies cool while they explore!",
+    originalPrice: 799,
+    discountPrice: 350,
+    badge: "New!!",
+    hasSizes: false,
+    images: [
+      "/images/baby-slapped-pad1.jpeg","/images/baby-slapped-pad2.jpeg","/images/baby-slapped-pad3.jpeg"
+    ]
+  },
+  {
+    id: 174,
+    name: "Deluxe Baby Bather",
+    category: "Baby Accessories",
+    description: "🛁 Deluxe Baby Bather – comfortable and secure support for safe baby bathing.💺 Soft, ergonomic design with anti-slip base for stability and ease.👶 Perfect for newborns, making bath time safe, relaxing, and enjoyable!",
+    originalPrice: 2200,
+    discountPrice: 1100,
+    badge: "Best Qaulity",
+    hasSizes: false,
+    images: [
+      "/images/baby-bather1.jpeg","/images/baby-bather2.jpeg","/images/baby-bather3.jpeg"
+    ]
+  },
+  {
+    id: 175,
+    name: "Baby Dry Sheet",
+    category: "Baby Accessories",
+    description: "🛏️ Baby Dry Sheet – soft, waterproof sheet to keep your baby dry and comfortable.💧 Absorbent top layer with leak-proof backing for mess-free protection.👶 Perfect for daily use, ensuring a clean and cozy sleeping space!",
+    originalPrice: 999,
+    discountPrice:  450,
+    badge: "Best Product",
+    hasSizes: true,
+    sizes: [
+       {size:"M",price:"450",stock:"true"},
+        {size:"L",price:"750",stock:"true"}
+    ],
+    images: [
+       "/images/dry-sheet1.jpeg","/images/dry-sheet2.jpeg","/images/dry-sheet3.jpeg","/images/dry-sheet4.jpeg"
+    ]
+  },
+  {
+    id: 176,
+    name: "Gillette Presto",
+    category: "Hygiene Products",
+    description: "🪒 Gillette Presto – ready-to-use disposable razor for a smooth and easy shave.✨ Twin blades with a comfortable grip for precise and gentle shaving.💙 Perfect for daily grooming, offering convenience and reliable performance!",
+    originalPrice: 100,
+    discountPrice: 75,
+    badge: "Buy 3 Get 1 Free",
+    hasSizes: false,
+    images: [
+       "/images/gillette.jpeg"
+    ]
+  },
+  {
+    id: 177,
+    name: "Baby Cap Set",
+    category: "Baby Accessories",
+    description: "🧢 Baby Cap Set – cute and comfy caps designed for your little one’s daily wear.🌿 Soft, breathable fabric keeps baby warm and cozy all day.👶 Perfect for all seasons, adding both comfort and style!",
+    originalPrice: 399,
+    discountPrice: 230,
+    badge: "3 in 1",
+    hasSizes: false,
+    images: [
+      "/images/cap-set1.jpeg","/images/cap-set2.jpeg","/images/cap-set3.jpeg"
+    ]
+  },
+  {
+    id: 178,
+    name: "Baby Silicone Feeding-Bottle-Spoon",
+    category: "Baby Care",
+    description: "🍼 Baby Silicone Feeding Bottle Spoon – smart squeeze feeder for easy, mess-free feeding.🥄 Soft silicone spoon tip with bottle design for controlled and gentle feeding.👶 Perfect for liquids, purees, and travel-friendly baby feeding!",
+    originalPrice: 399,
+    discountPrice: 199,
+    badge: "3 in 1",
+    hasSizes: false,
+    images: [
+            "/images/silicone-1.jpeg","/images/silicone-2.jpeg","/images/silicone-3.jpeg"
+    ]
+  },
+   {
+    id: 198,
+    name: "Baby Silicone Spoon Feeder",
+    category: "Baby Care",
+    description: "🍼 Baby Silicone Feeding Bottle Spoon – smart squeeze feeder for easy, mess-free feeding.🥄 Soft silicone spoon tip with bottle design for controlled and gentle feeding.👶 Perfect for liquids, purees, and travel-friendly baby feeding!",
+    originalPrice: 299,
+    discountPrice: 150,
+    badge: "3 in 1",
+    hasSizes: false,
+    images: [
+            "/images/silicone-11.jpeg","/images/silicone-12.jpeg",
+    ]
+  },
+  {
+    id: 179,
+    name: "2 in 1 Silicone Baby Spoon",
+    category: "Baby Care",
+    description: "🥄 2 in 1 Silicone Baby Spoon – soft, safe feeding spoon designed for babies.🍼 Dual-purpose design with gentle silicone tip for easy and comfortable feeding.👶 Perfect for training and daily use, ensuring safe and mess-free meals!",
+    originalPrice: 299,
+    discountPrice: 150,
+    badge: "Double Heahed",
+    hasSizes: false,
+    images: [
+      "/images/2in1-spoon.jpeg","/images/2in1-spoon1.jpeg","/images/2in1-spoon2.jpeg"
+    ]
+  },
+  {
+    id: 180,
+    name: "Baby Cotton Banyan-Blue",
+    category: "Baby Accessories",
+    description: "👕 Baby Cotton Banyan – Blue – soft, breathable innerwear for everyday comfort.🌿 Gentle cotton fabric keeps baby’s skin cool and irritation-free.💙 Perfect for daily wear, ensuring all-day ease and coziness!",
+    originalPrice: 199,
+    discountPrice: 90,
+    badge: "100% Cotton",
+    hasSizes: false,
+    images: [
+      "/images/banyan1.jpeg"
+    ]
+  },
+   {
+    id: 181,
+    name: "Baby Cotton Banyan-Red",
+    category: "Baby Accessories",
+    description: "👕 Baby Cotton Banyan – Red – soft and breathable innerwear for all-day comfort.🌿 Made from gentle cotton fabric, perfect for delicate baby skin.❤️ Ideal for daily wear, keeping your little one cool and comfortable!",
+    originalPrice: 199,
+    discountPrice: 90,
+    badge: "100% Cotton",
+    hasSizes: false,
+    images: [
+      "/images/banyan2.jpeg"
+    ]
+  },
+  {
+    id: 183,
+    name: "Pluto Manual Push Car",
+    category: "Baby Toys",
+    description: "PLUTO Manual Push Magic Car – fun ride-on toy for kids (3–8 years), no battery needed.🛞 Smooth steering, wide footrest, and strong durable design for safe indoor & outdoor play.",
+    originalPrice: 5000,
+    discountPrice: 2800,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/pluto-car.jpeg"
+    ]
+  },
+  {
+    id: 184,
+    name: "Cosmo Manual Push Rideon",
+    category: "Baby Toys",
+    description: "Cosmo Manual Push Rideon – fun ride-on toy for kids (3–8 years), no battery required.🛞 Smooth steering, wide footrest, and durable build for safe indoor & outdoor play.💰 Perfect for active fun, balance, and coordination development!",
+    originalPrice: 5000,
+    discountPrice: 2700,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/cosmo-car.jpeg"
+    ]
+  },
+  {
+    id: 185,
+    name: "Zygo Swing Car",
+    category: "Baby Toys",
+    description: "Zygo Swing Car – exciting ride-on toy for kids (3–8 years), no battery needed.🛞 Smooth steering, comfortable seat, and strong durable design for indoor & outdoor play.💥 Perfect for fun, balance, and active movement!",
+    originalPrice: 5000,
+    discountPrice: 2500,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/zygo-car.jpeg"
+    ]
+  },
+  {
+    id: 186,
+    name: "Diver Kids Magic Car",
+    category: "Baby Toys",
+    description: "Diver Kids Magic Car – fun ride-on toy for kids (3–8 years), no battery required.🛞 Easy steering, comfortable seat, and durable design for safe indoor & outdoor play.💥 Perfect for active fun, balance, and coordination development!",
+    originalPrice: 5000,
+    discountPrice: 2400,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/Diver-car.jpeg"
+    ]
+  },
+  {
+    id: 187,
+    name: "Cliddo Swing Car",
+    category: "Baby Toys",
+    description: "Cliddo Swing Car – modern ride-on with sleek design and smooth swing motion.🛞 Durable build with easy steering for a hassle-free riding experience.🌟 Best choice for fun, coordination, and confidence building in kids.",
+    originalPrice: 6000,
+    discountPrice: 3000,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/cliddo-car.jpeg"
+    ]
+  },
+  {
+    id: 188,
+    name: "Miramar Swing Magic Car",
+    category: "Baby Toys",
+    description: "Miramar Swing Magic Car – premium ride-on toy with smooth swing motion, no battery needed.🛞 Strong wheels, stylish design, and comfortable seat for a fun riding experience.🌟 Perfect for kids to enjoy safe, active play while building balance and confidence!",
+    originalPrice: 5000,
+    discountPrice: 2200,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/miramar-car.jpeg"
+    ]
+  },
+  {
+    id: 189,
+    name: "Astro Swing Car",
+    category: "Baby Toys",
+    description: "Astro Swing Car – sleek, space-inspired ride-on for kids (3–8 years), no battery required.🛞 Effortless zig-zag motion with smooth steering and a sturdy, comfortable seat.✨ Built for fun, speed, and developing balance during indoor & outdoor play!",
+    originalPrice: 6000,
+    discountPrice: 3000,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/astro-car.jpeg"
+    ]
+  },
+  {
+    id: 190,
+    name: "Albine Tricycle with Parental Control",
+    category: "Baby Toys",
+    description: "Albine Tricycle with Parental Control – safe and comfortable tricycle for toddlers with guided steering.👨‍👩‍👧 Adjustable parent handle, safety guard, and stable wheels for worry-free rides.🌟 Perfect for early riding, ensuring fun while parents stay in control!",
+    originalPrice: 7000,
+    discountPrice: 4000,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/albine.jpeg"
+    ]
+  },
+  {
+    id: 192,
+    name: "Tricycle With Parental Control",
+    category: "Baby Toys",
+    description: "🚲 Tricycle With Parental Control – safe and easy ride for toddlers with guided steering support.👨‍👩‍👧 Parent handle, safety guard, and sturdy wheels ensure stability and comfort.🌟 Perfect for beginners, combining fun riding with full parental control!",
+    originalPrice: 5000,
+    discountPrice: 2800,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/tricycle1.jpeg"
+    ]
+  },
+  {
+    id: 193,
+    name: "Baybee Tricycle",
+    category: "Baby Toys",
+    description: "🚲 Baybee Tricycle – colorful and sturdy trike designed for toddlers’ everyday fun.🛞 Stable wheels, comfortable seat, and easy pedals for smooth riding.🌈 Perfect for building confidence, coordination, and active play outdoors!",
+    originalPrice: 8000,
+    discountPrice: 3600,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/tricycle2.jpeg"
+    ]
+  },
+  {
+    id: 194,
+    name: "Terra Pro Tricycle With Parental Control",
+    category: "Baby Toys",
+    description: "🚲 Terra Pro Tricycle With Parental Control – premium trike designed for safety, comfort, and style.👨‍👩‍👧 Strong frame, adjustable parent handle, and secure seating for guided riding.🌟 Perfect for growing kids, combining fun rides with full parental control!",
+    originalPrice: 8000,
+    discountPrice: 3000,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/terra-pro.jpeg"
+    ]
+  },
+  {
+    id: 195,
+    name: "Tricycle With Parental Control",
+    category: "Baby Toys",
+    description: "🚲 Tricycle With Parental Control – smart and safe ride for toddlers with easy parent guidance.👨‍👩‍👧 Adjustable push handle, safety guard, and sturdy frame for secure rides.✨ Ideal for beginners, offering comfort, control, and fun in every ride!",
+    originalPrice: 5000,
+    discountPrice: 2900,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/tricycle3.jpeg"
+    ]
+  },
+  {
+    id: 196,
+    name: "Velix Kids Tricycle",
+    category: "Baby Toys",
+    description: "🚲 Velix Kids Tricycle – vibrant and durable trike built for everyday adventures.🛞 Smooth pedals, stable wheels, and a comfy seat for easy riding.🌟 Great for boosting confidence, balance, and outdoor fun for kids!",
+    originalPrice: 8000,
+    discountPrice: 3000,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/velix-cycle.jpeg"
+    ]
+  },
+  {
+    id: 197,
+    name:"Tricx Tricycle",
+    category: "Baby Toys",
+    description: "🚲 Tricx Tricycle – stylish and sturdy trike designed for smooth and safe rides.🛞 Easy pedaling, balanced wheels, and a comfortable seat for everyday fun.🌟 Perfect for helping kids build confidence, coordination, and active play!",
+    originalPrice: 5000,
+    discountPrice: 2400,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "/images/tricx.jpeg"
     ]
   },
 
