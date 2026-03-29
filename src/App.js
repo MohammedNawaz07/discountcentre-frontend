@@ -791,7 +791,7 @@ const allProducts = [
       { size: "S (10pc)", price: 400, stock: true }
     ],
     images: [
-        "/images/Econap-s.jpeg"
+        "/images/econap-s.jpeg"
     ]
   },
 
