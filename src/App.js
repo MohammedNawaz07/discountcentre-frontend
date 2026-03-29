@@ -316,17 +316,26 @@ const allProducts = [
   },
   {
     id:154,
+    name: "Baby SebaMed Cleansing Bar-100g",
+    category: "Hygiene Products",
+    description: "🧼 Baby SebaMed Cleansing Bar – 100g – gentle, pH-balanced soap for delicate baby skin.🌿 Soap-free formula helps cleanse without dryness while protecting natural moisture.👶 Perfect for daily use, keeping your baby’s skin soft, smooth, and healthy!",
+    originalPrice: 350,
+    discountPrice: 330,
+    badge: "Upto 5% Off",
+    hasSizes: false,
+    images: [
+      "/images/sebamed-soap1.jpeg","/images/sebamed-soap2.jpeg","/images/sebamed-soap3.jpeg"
+    ]
+  },
+   {
+    id:198,
     name: "Baby SebaMed Cleansing Bar-150g",
     category: "Hygiene Products",
     description: "🧼 Baby SebaMed Cleansing Bar – 150g – gentle, pH-balanced soap for delicate baby skin.🌿 Soap-free formula helps cleanse without dryness while protecting natural moisture.👶 Perfect for daily use, keeping your baby’s skin soft, smooth, and healthy!",
     originalPrice: 500,
     discountPrice: 470,
     badge: "Upto 5% Off",
-    hasSizes: true,
-    sizes: [
-      { size: "100g", price: 330, stock: true },
-      { size: "150g", price: 470, stock: true },
-    ],
+    hasSizes: false,
     images: [
       "/images/sebamed-soap1.jpeg","/images/sebamed-soap2.jpeg","/images/sebamed-soap3.jpeg"
     ]
@@ -1681,6 +1690,26 @@ const allProducts = [
       { size: "M (96pcs)", price: 798, stock: true },
       { size: "L (84pcs)", price: 798, stock: true },
       { size: "XL (72pcs)", price: 798, stock: true }
+    ],
+    images: [
+     "/images/absorbia-798.jpeg"
+    ]
+  },
+  {
+    id: 199,
+    name: "Absorbia Baby Pants",   
+    category: "Baby Care",
+    description: "Absorbia Baby Pants: Premium diaper pants with excellent absorbency and leak protection, offering great value with a special combo deal.",
+    originalPrice: 399,
+    discountPrice: 300,
+    badge: "Best Seller",
+    hasSizes: true,
+    sizes: [
+      { size: "NB (42pcs)", price: 300, stock: true },
+      { size: "S (40pcs)", price: 300, stock: true },
+      { size: "M (32pcs)", price: 300, stock: true },
+      { size: "L (28pcs)", price: 300, stock: true },
+      { size: "XL (24pcs)", price: 300, stock: true }
     ],
     images: [
      "/images/absorbia-798.jpeg"
