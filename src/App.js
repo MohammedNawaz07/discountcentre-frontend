@@ -779,17 +779,14 @@ const allProducts = [
     ]
   },
   {
-    id: 162,
+    id: 200,
     name: "Econap Adult Pants-S",
     category: "Adult Diapers",
     description: "🧓 Econap Adult Pants – S – comfortable and discreet diaper pants for a secure fit.💧 High absorbency with leak protection to keep you dry and fresh.✨ Ideal for daily use, ensuring comfort, confidence, and ease of movement!",
     originalPrice: 600,
     discountPrice: 400,
     badge: "Best Seller",
-    hasSizes: true,
-    sizes: [
-      { size: "S (10pc)", price: 400, stock: true }
-    ],
+    hasSizes: false,
     images: [
         "/images/econap-s.jpeg"
     ]
