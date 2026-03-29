@@ -2844,7 +2844,7 @@ const allProducts = [
     badge: "Safe Toys",
     hasSizes: false,
     images: [
-      "/images/Diver-car.jpeg"
+      "/images/diver-car.jpeg"
     ]
   },
   {
