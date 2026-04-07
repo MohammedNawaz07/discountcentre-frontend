@@ -317,7 +317,7 @@ const allProducts = [
   {
     id:212,
     name: "Baby SebaMed Cleansing Bar-100g",
-    category: "Hygiene Products",
+    category: "Baby Care",
     description: "🧼 Baby SebaMed Cleansing Bar – 100g – gentle, pH-balanced soap for delicate baby skin.🌿 Soap-free formula helps cleanse without dryness while protecting natural moisture.👶 Perfect for daily use, keeping your baby’s skin soft, smooth, and healthy!",
     originalPrice: 350,
     discountPrice: 330,
@@ -328,9 +328,9 @@ const allProducts = [
     ]
   },
    {
-    id:198,
+    id:213,
     name: "Baby SebaMed Cleansing Bar-150g",
-    category: "Hygiene Products",
+    category: "Baby Care",
     description: "🧼 Baby SebaMed Cleansing Bar – 150g – gentle, pH-balanced soap for delicate baby skin.🌿 Soap-free formula helps cleanse without dryness while protecting natural moisture.👶 Perfect for daily use, keeping your baby’s skin soft, smooth, and healthy!",
     originalPrice: 500,
     discountPrice: 470,
