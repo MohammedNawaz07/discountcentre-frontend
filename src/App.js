@@ -315,7 +315,7 @@ const allProducts = [
     ]
   },
   {
-    id:154,
+    id:212,
     name: "Baby SebaMed Cleansing Bar-100g",
     category: "Hygiene Products",
     description: "🧼 Baby SebaMed Cleansing Bar – 100g – gentle, pH-balanced soap for delicate baby skin.🌿 Soap-free formula helps cleanse without dryness while protecting natural moisture.👶 Perfect for daily use, keeping your baby’s skin soft, smooth, and healthy!",
@@ -3003,7 +3003,149 @@ const allProducts = [
       "/images/tricx.jpeg"
     ]
   },
-
+  {
+    id: 201,
+    name:"Enchant Baby Swing Cradle",
+    category: "Baby Toys",
+    description: " Enchant Baby Swing Cradle – a delightful and safe swing designed for little ones.🪑 Comfortable seat, sturdy frame, and gentle swaying motion for peaceful naps and soothing play.🌟 Perfect for creating a cozy corner in your baby's room!",
+    originalPrice: 8000,
+    discountPrice: 4200,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "/images/enchant-cradle.jpeg"
+    ]
+  },
+   {
+    id: 202,
+    name: "Baby Cradle",
+    category: "Baby Toys",
+     description: "Baby Cradle – a charming and secure swing designed for your little one’s comfort.🪑 Soft seat, sturdy frame, and gentle rocking motion for soothing naps and playtime.🌟 Perfect for creating a cozy and safe space in your baby's room!",
+    originalPrice: 8000,
+    discountPrice: 3800,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "/images/baby-cradle.jpeg"
+    ]
+  },
+   {
+    id: 203,
+    name:"Baybee Swing Cradle",
+    category: "Baby Toys",
+    description: "Baybee Swing Cradle – a delightful and secure swing designed for your little one’s comfort.🪑 Soft seat, sturdy frame, and gentle rocking motion for soothing naps and playtime.🌟 Perfect for creating a cozy and safe space in your baby's room!",
+    originalPrice: 8000,
+    discountPrice: 4900,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "/images/baybee-cradle.jpeg"
+    ]
+  },
+   {
+    id: 204,
+    name: "Baby Swing Cradle",
+    category: "Baby Toys",
+    description: "Baby Swing Cradle – a charming and secure swing designed for your little one’s comfort.🪑 Soft seat, sturdy frame, and gentle rocking motion for soothing naps and playtime.🌟 Perfect for creating a cozy and safe space in your baby's room!",
+    originalPrice: 9000,
+    discountPrice: 5800,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "images/swing-cradle.jpeg"
+    ]
+  },
+   {
+    id: 205,
+    name:"Solid Pine Wood Baby Cot",
+    category: "Baby Toys",
+    description: "Solid Pine Wood Baby Cot – a sturdy and eco-friendly cot made from high-quality pine wood.🛏️ Safe and durable design for your baby's comfort and well-being.🌟 Perfect for creating a cozy sleeping space in your baby's room!",
+    originalPrice: 20000,
+    discountPrice: 15000,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "images/solid-pine.jpeg"
+    ]
+  },
+   {
+    id: 206,
+    name:"Nappy Baby Cot",
+    category: "Baby Toys",
+    description: "Nappy Baby Cot – a charming and secure cot designed for your little one’s comfort.🛏️ Sturdy frame and safe design for peaceful sleep and sweet dreams.🌟 Perfect for creating a cozy and safe sleeping space in your baby's room!",
+    originalPrice: 15000,
+    discountPrice: 9500,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "images/nappy-cot.jpeg"
+    ]
+  },
+   {
+    id: 207,
+    name:"Dozy Baby Cradle",
+    category: "Baby Toys",
+    description: "Dozy Baby Cradle – a gentle and secure swing designed for your little one’s comfort.🪑 Soft seat, sturdy frame, and gentle rocking motion for soothing naps and playtime.🌟 Perfect for creating a cozy and safe space in your baby's room!",
+    originalPrice: 8000,
+    discountPrice: 4700,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "images/dozy-cradle.jpeg"
+    ]
+  },
+   {
+    id: 208,
+    name:"Baby Cot",
+    category: "Baby Toys",
+    description: "Baby Cot – a charming and secure cot designed for your little one’s comfort.🛏️ Sturdy frame and safe design for peaceful sleep and sweet dreams.🌟 Perfect for creating a cozy and safe sleeping space in your baby's room!",
+    originalPrice: 15000,
+    discountPrice: 8900,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "images/baby-cot.jpeg"
+    ]
+  },
+   {
+    id: 209,
+    name:"Isofix Baby Car Seat",
+    category: "Baby Toys",
+    description: "Isofix Baby Car Seat – a secure and comfortable car seat designed for your little one’s safety during travel.🚗 Easy installation with ISOFIX system, adjustable features, and cushioned support for a safe and cozy ride.🌟 Perfect for keeping your baby protected on the go!",
+    originalPrice: 15000,
+    discountPrice: 9800,
+    badge: "Best Quality",
+    hasSizes: false,
+    images: [
+      "images/isofix.jpeg"
+    ]
+  },
+   {
+    id: 210,
+    name:"MultiFunctional Baby Stroller",
+    category: "Baby Toys",
+    description: "MultiFunctional Baby Stroller – a versatile and convenient stroller designed for your little one’s comfort and mobility.🛒 Lightweight frame, adjustable handle, and multiple seating positions for a comfortable ride.🌟 Perfect for urban adventures and daily outings!",
+    originalPrice: 12000,
+    discountPrice: 8300,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "images/multifunctional.jpeg"
+    ]
+  },
+   {
+    id: 211,
+    name:"Foldable Baby Stroller",
+    category: "Baby Toys",
+    description: "Foldable Baby Stroller – a space-saving and convenient stroller designed for your little one’s comfort and mobility.🛒 Lightweight and easy to fold, perfect for travel and daily use.🌟 Ideal for parents who want a compact yet sturdy option for their baby’s outings!",
+    originalPrice: 18000,
+    discountPrice: 14000,
+    badge: "Safe Toys",
+    hasSizes: false,
+    images: [
+      "images/foldable.jpeg"
+    ]
+  },
 ];
 
 // Features/USPs
